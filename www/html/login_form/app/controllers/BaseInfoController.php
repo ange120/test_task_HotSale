@@ -1,7 +1,8 @@
 <?php
 
-require_once 'AppController.php';
-require_once __DIR__.'/../repository/UserRepository.php';
+namespace App\controllers;
+use App\repository\UserRepository;
+
 
 class BaseInfoController extends AppController
 {
@@ -13,7 +14,7 @@ class BaseInfoController extends AppController
         if (!$_SESSION) {
             $this->log->logController($this->getRequest(),__METHOD__, 'Attempt by a user who is not logged in');
             $url = "http://$_SERVER[HTTP_HOST]";
-            header("Location: {$url}/info");
+            header("Location: {$url}/");
         }
     }
 

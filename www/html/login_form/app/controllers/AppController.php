@@ -1,5 +1,7 @@
 <?php
-require_once __DIR__ . '/../service/LogService.php';
+
+namespace App\controllers;
+use App\service\LogService;
 
 class AppController {
 

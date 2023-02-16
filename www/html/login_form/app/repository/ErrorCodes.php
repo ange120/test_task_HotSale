@@ -1,5 +1,7 @@
 <?php
 
+namespace App\repository;
+
 class ErrorCodes
 {
     public const REQUEST_BODY_REQUIRED = [

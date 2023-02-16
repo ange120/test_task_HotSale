@@ -1,7 +1,10 @@
 <?php
 
-require_once __DIR__.'../../Config/Database.php';
-require_once __DIR__ . '/../service/LogService.php';
+namespace App\repository;
+
+use App\Config\Database;
+use App\service\LogService;
+
 
 class Repository {
 

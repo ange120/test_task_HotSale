@@ -1,5 +1,6 @@
 <?php
-require_once __DIR__ . '/../service/LogService.php';
+namespace App\Config;
+use App\service\LogService;
 
 class Database
 {

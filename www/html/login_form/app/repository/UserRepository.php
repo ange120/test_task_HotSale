@@ -1,7 +1,7 @@
 <?php
 
-require_once 'Repository.php';
-require_once __DIR__ . '/../models/User.php';
+namespace App\repository;
+use App\models\User;
 
 class UserRepository extends Repository
 {

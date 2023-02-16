@@ -1,4 +1,5 @@
 <?php
+namespace App\service;
 require_once __DIR__.'/../Config/configFile.php';
 
 class LogService

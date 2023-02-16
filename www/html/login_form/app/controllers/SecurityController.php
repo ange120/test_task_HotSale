@@ -1,9 +1,10 @@
 <?php
-session_start();
 
-require_once 'AppController.php';
-require_once __DIR__ . '/../repository/ErrorCodes.php';
-require_once __DIR__ . '/../repository/UserRepository.php';
+namespace App\controllers;
+use App\repository\ErrorCodes;
+use App\repository\UserRepository;
+
+
 
 class SecurityController extends AppController
 {
